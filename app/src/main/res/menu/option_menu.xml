@@ -1,0 +1,33 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_camera_alt_24"
+        android:title="TODO"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/List"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <item
+        android:id="@+id/Liswt"
+        android:title="New Group" />
+    <item
+        android:id="@+id/Lisewt"
+        android:title="New broadcast" />
+    <item
+        android:id="@+id/Lidswt"
+        android:title="Linked devices" />
+    <item
+        android:id="@+id/Lisswt"
+        android:title="Stared message" />
+    <item
+        android:id="@+id/Licswt"
+        android:title="Setting" />
+
+
+</menu>

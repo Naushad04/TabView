@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JoJo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.JoJo" parent="Base.Theme.JoJo" >
+        <item name="android:colorPrimary">#008270</item>
+
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+
+    </style>  // tabText Size
+
+
+        <style name="MyToolbarStyle" parent="ThemeOverlay.AppCompat.Light" >
+            <item name="android:radius">40dp</item>
+        </style>
+
+
+</resources>
